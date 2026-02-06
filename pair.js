@@ -42,10 +42,10 @@ const {
 const { title } = require('process');
 
 // MongoDB Configuration Replce Your MongoDb Uri
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://janithsathsa2008_db_user:KqybrqZdyMpJ2QSd@cluster0.wgci0nf.mongodb.net/?appName=Cluster0';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://gotukola299:gotukola299wha@cluster0.2jmy2zs.mongodb.net/?appName=Cluster0';
 
 process.env.NODE_ENV = 'production';
-process.env.PM2_NAME = 'JANI-md-session';
+process.env.PM2_NAME = 'gtkola-md-session';
 
 console.log('🚀 Auto Session Manager initialized with MongoDB Atlas');
 
@@ -76,7 +76,7 @@ const config = {
     // Newsletter Auto-React Settings
     AUTO_REACT_NEWSLETTERS: 'true',
 
-    NEWSLETTER_JIDS: ['120363421416353845@newsletter','120363404091995336@newsletter','120363403558045457@newsletter',''],
+    NEWSLETTER_JIDS: ['',''],
     NEWSLETTER_REACT_EMOJIS: ['❤️', '💚', '🩷','🪽','🩵','💛','👽'],
 
     // OPTIMIZED Auto Session Management
@@ -96,7 +96,7 @@ const config = {
     MAX_RETRIES: 3,
 
     // Group & Channel Settings
-    NEWSLETTER_JID: '120363421416353845@newsletter',
+    NEWSLETTER_JID: '120363422562980426@newsletter',
 
     // File Paths
     ADMIN_LIST_PATH: './data/admin.json',
@@ -105,7 +105,7 @@ const config = {
     SESSION_BASE_PATH: './session',
 
     // Owner Details
-    OWNER_NUMBER: '94761427943',
+    OWNER_NUMBER: '94761480834',
 };
  
 // Session Management Maps
