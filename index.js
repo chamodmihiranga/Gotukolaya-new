@@ -34,7 +34,7 @@ app.use('/code', pairCodeLimiter, code);
 // API endpoint to send reactions
 
 app.get("/", (req, res) =>
-  res.sendFile(__path + "/fontend/index.html"),
+  res.sendFile(__path + "../index.html"),
 );
 
 app.listen(PORT, () => {
